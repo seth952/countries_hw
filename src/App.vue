@@ -1,10 +1,10 @@
 <template>
   <div id="app">
 
-<h1>Countries</h1>
-<div>
+    <h1>Countries</h1>
+
   <countries-list :countries='countries'></countries-list>
-</div>
+
   </div>
 </template>
 
