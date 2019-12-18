@@ -1,5 +1,9 @@
 <template>
   <li v-on:click="handleClick"> {{country.name}} </li>
+  <!-- <select>
+    <option v-for="country in countries" :value="country">{{country.name}}</option>
+    <option>{{country.name}}</option>
+  </select> -->
 </template>
 <script>
 import { eventBus } from '../main.js';
